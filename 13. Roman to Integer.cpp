@@ -33,6 +33,5 @@ private:
         else if(c == 'D') return  500;
         else if(c == 'M') return  1000;
         else return 0 ;
-    } 
-    
+    }  
 };
