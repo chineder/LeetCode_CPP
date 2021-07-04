@@ -17,7 +17,7 @@ public:
     int maxArea(vector<int>& height) {
         
         vector<int>::iterator head_it = height.begin(); 
-        vector<int>::iterator tail_it = --height.end(); 
+        vector<int>::iterator tail_it = height.end() - 1; 
 
         int Mostcon = 0;
         int tmpcon = 0;
