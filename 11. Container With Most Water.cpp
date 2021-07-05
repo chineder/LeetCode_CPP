@@ -10,6 +10,9 @@
 兩邊一樣高，只有其中一邊往內找到更高的的，
 較低邊的高度一樣沒變，因為寬度會變小，所以容量一定更小。
 因此，一起往內找看看有沒有更多量
+
+Runtime: 88 ms, faster than 46.42% of C++ online submissions for Container With Most Water.
+Memory Usage: 59 MB, less than 36.66% of C++ online submissions for Container With Most Water.
 ************************************************************************************/
 
 class Solution {
