@@ -12,6 +12,10 @@ second 跟third 從first的下一位跟最尾，往內夾，找答案
 
 first若出現重複，則跳過，因為重復出現的數找到的答案，必包含放第一次出現
 second 跟 third 一樣的概念
+
+
+Runtime: 8 ms, faster than 82.47% of C++ online submissions for 3Sum Closest.
+Memory Usage: 9.8 MB, less than 58.52% of C++ online submissions for 3Sum Closest.
 ***********************************************************************************/
 
 class Solution {
