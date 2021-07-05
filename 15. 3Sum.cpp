@@ -3,10 +3,13 @@
 
 類似leetcode 11，取最大容積的做法，改成指定容積的概念
 sort後，first先為基準，且first一定 <= 0，才有辦法三數相加為0
-second 跟third 從first的下一位跟最尾，往內夾，找答案
+second 跟third ，分別從first的下一位跟最尾，往內夾，找答案
 
 first若出現重複，則跳過，因為重復出現的數找到的答案，必包含放第一次出現
 second 跟 third 一樣的概念
+
+Runtime: 48 ms, faster than 98.76% of C++ online submissions for 3Sum.
+Memory Usage: 19.9 MB, less than 85.91% of C++ online submissions for 3Sum.
 ***********************************************************************************/
 
 class Solution {
