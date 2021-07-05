@@ -1,3 +1,8 @@
+/************************************************************************************
+Runtime: 0 ms, faster than 100.00% of C++ online submissions for String to Integer (atoi).
+Memory Usage: 7.1 MB, less than 11.07% of C++ online submissions for String to Integer (atoi).
+************************************************************************************/
+
 class Solution {
 public:
     int myAtoi(string s) {
