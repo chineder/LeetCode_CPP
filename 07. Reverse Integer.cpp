@@ -1,3 +1,8 @@
+/************************************************************************************
+Runtime: 0 ms, faster than 100.00% of C++ online submissions for Reverse Integer.
+Memory Usage: 6.1 MB, less than 10.23% of C++ online submissions for Reverse Integer.
+************************************************************************************/
+
 class Solution {
 public:
     int reverse(int x){
@@ -28,9 +33,9 @@ public:
         for(int j = 0 ;  ; j++)
         {
 
-            if(y[j] * pow(10,i)+ reverseX > INT_MAX )  return 0;
-            reverseX = y[j] * pow(10,i) + reverseX ; 
-                           
+            if(y[j] * pow(10,i)+ reverseX > INT_MAX )  return 0;            
+            reverseX = y[j] * pow(10,i) + reverseX ;             
+            
             if( i > 0)  i-- ;
             else break ;
 
@@ -42,3 +47,4 @@ public:
         else return  reverseX ;
     }
 };
+      
