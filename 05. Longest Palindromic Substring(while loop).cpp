@@ -1,6 +1,9 @@
 /* 
 1. 有兩種可能，一種是正中間為單一個字元e.g. abcba，另一種為雙字元e.g. abccba
 2. 以index為中心，向兩邊切兩個sub string ，前段的最後字跟後段的最前字一個一個比較
+
+Runtime: 612 ms, faster than 14.19% of C++ online submissions for Longest Palindromic Substring.
+Memory Usage: 128.1 MB, less than 27.05% of C++ online submissions for Longest Palindromic Substring.
 */
 
 class Solution {
