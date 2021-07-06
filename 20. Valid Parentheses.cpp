@@ -7,6 +7,9 @@
 其它符號就一直加入s1尾端，
 
 最後s1必需清空，否則false
+
+Runtime: 0 ms, faster than 100.00% of C++ online submissions for Valid Parentheses.
+Memory Usage: 6 MB, less than 99.44% of C++ online submissions for Valid Parentheses.
 **************************************************************/
 
 class Solution {
