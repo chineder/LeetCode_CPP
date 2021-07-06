@@ -1,3 +1,12 @@
+/*******************************************************************
+兩個指標，其一先行N個後，另一個再一起前進。
+
+雙指標間保持持間格N，先行指標到底後，後行指向距離N的位置
+
+Runtime: 4 ms, faster than 81.37% of C++ online submissions for Remove Nth Node From End of List.
+Memory Usage: 10.8 MB, less than 27.43% of C++ online submissions for Remove Nth Node From End of List.
+*******************************************************************/
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -9,12 +18,6 @@
  * };
  */
 
-/*******************************************************************
-兩個指標，其一先行N個後，另一個再一起前進。
-
-雙指標間保持持間格N，先行指標到底後，後行指向距離N的位置
-
-*******************************************************************/
 
 class Solution {
 public:
